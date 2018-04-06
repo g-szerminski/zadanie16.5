@@ -1,21 +1,6 @@
 import React from 'react';
 import style from './TodoForm.css';
 
-// const TodoForm = props => {
-//     let entry = '';
-//     return (
-//         <form className={style.TodoForm} onSubmit={event => {event.preventDefault(); props.addTodo(props.text)}>
-//             <label>Add "ToDo" task</label>
-//             <input
-//                 type='text'
-//                 palceholder='Type task and press Enter'
-//                 onChange={event => props.change(event.target.value)}
-//                 value={props.text}
-//                 />
-//         </form>
-//     );
-// }
-
 class TodoForm extends React.Component {
     constructor(props) {
         super(props);
