@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.TodoList {
+    width: 300px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.TodoList>li:hover {
+    color: #bcbcbc;
+    cursor: pointer;
+    font-size: 30px; 
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.TodoForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.TodoForm > input {
+    margin: 5px 0;
+    border-radius: 3px;
+    padding: 3px;
+}

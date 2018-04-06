@@ -1,12 +1,13 @@
 {
   "name": "zadanie16.5",
   "version": "1.0.0",
-  "description": "16 - Webpack - panaceum front-endowca ?<br>\r 16.3 - Pierwsza konfiguracja Webpacka<br>\r - Użycie Webpacka przez CLI<br>\r - Omówienie i wykorzystanie pliku konfiguracyjnego Webpacka<br>\r - Stworzenie odpowiedniej struktury folderów",
+  "description": "16 - Webpack - panaceum front-endowca ?<br>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:js": "globstar jshint src/*.js",
-    "start": "webpack"
+    "start": "webpack",
+    "sync": "node_modules/.bin/browser-sync start --server --files \"src/components/*.css\"  \"src/containers/*.css\" \"src/*.html\" \"*.js\" \"src/components/*.js\"  \"src/containers/*.js\" \"src/*.js\""
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.23.6",
     "css-loader": "^0.28.11",
     "globstar": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",

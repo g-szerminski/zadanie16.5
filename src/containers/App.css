@@ -1,10 +1,11 @@
 .TodoApp {
     background-color: #F5F5F5;
-    color: #222;
+    background-image: url(https://images.unsplash.com/photo-1508962061361-bcb4d4c477f8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a099e6c4c69a0769041e0eaf57f3025&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
     align-content: center;
     width: 100vw;

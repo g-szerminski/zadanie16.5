@@ -23,7 +23,7 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            modules: true
+               			modules: true
                         }
                     }
                 ]
@@ -32,7 +32,7 @@ module.exports = {
     },
     
     plugins: [
-        new HtmlWebpackPlugin({
+      	new HtmlWebpackPlugin({
             template: 'src/index.html',
             filename: 'index.html',
             inject: 'body'
